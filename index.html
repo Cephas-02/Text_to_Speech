@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="container">
+
+        <h1>Text to Speech</h1>
+
+        <label>TEXT</label>
+        <textarea type="text" id="index" name="text" placeholder="Words goes here"  autocomplete="off" cols="30" rows="5"></textarea>
+        
+        <label>SPEED</label>
+        <input type="number" name="speed" min="1" max="10" placeholder="x1.0">
+
+        <label>PITCH</label>
+        <input type="number" name="pitch" min="1" max="10" placeholder="1.0">
+
+        <button type="submit">PLAY</button>
+
+    </form>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
